@@ -16,8 +16,7 @@
                         </tr>
                         <tr>
                             <th>期限</th>
-                            <td><fmt:formatDate value="${task.perod}"
-                                    pattern="yyyy-MM-dd HH:mm:ss" /></td>
+                            <td><c:out value="${task.period}" /></td>
                         </tr>
                         <tr>
                             <th>メッセージ</th>
@@ -39,7 +38,7 @@
                     <a href="${pageContext.request.contextPath}/index">一覧に戻る</a>
                 </p>
                 <p>
-                    <a href="${pageContext.request.contextPath}/edit?id=${message.id}">このメッセージを編集する</a>
+                    <a href="${pageContext.request.contextPath}/edit?id=${task.id}">このメッセージを編集する</a>
                 </p>
             </c:when>
             <c:otherwise>

@@ -13,11 +13,11 @@ import javax.servlet.annotation.WebFilter;
 @WebFilter("/*")
 public class EncodingFilter implements Filter {
 
- EncodingFilter() {
+    public EncodingFilter() {
 
     }
 
-    
+
     public void destroy() {
 
     }

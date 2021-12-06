@@ -15,7 +15,7 @@
 <input type="text" name="title" value="${task.title}" />
 <br /><br />
 <label for="title">期限</label><br />
-<input type="text" name="period" value="${message.period}" />
+<input type="text" name="period" value="${task.period}" />
 <br /><br />
 <label for="title">メッセージ</label><br />
 <input type="text" name="content" value="${task.content}" />
